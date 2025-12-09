@@ -1,1 +1,0 @@
-"gamutils" is a package to support generalised additive modelling analyses
