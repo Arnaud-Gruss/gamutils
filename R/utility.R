@@ -9,7 +9,7 @@
 #' @export
 modefunc <- function( x ) {
 
-	a <- table( x )
+  a <- table( x )
   names( a[a == max( a )] )
 
 }
