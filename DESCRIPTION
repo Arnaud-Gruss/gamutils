@@ -1,6 +1,6 @@
 Package: gamutils
 Title: Functions to support generalised additive modelling analyses
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
 	person(c("Arnaud"), "Grüss", , "Arnaud.Gruss@niwa.co.nz", 
 	   role = c("aut", "cre"),
@@ -10,7 +10,8 @@ License: GPL-3
 Depends:
     R (>= 4.1.0)
 Imports:
-    mgcv
+    mgcv, 
+    stringr
 Suggests:
     ggplot2,
     knitr,
@@ -24,8 +25,8 @@ Suggests:
     plyr,
     DHARMa,
     tibble, 
-	covr, 
-	DT
+	  covr, 
+	  DT
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
